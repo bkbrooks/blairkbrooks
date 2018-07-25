@@ -1,0 +1,102 @@
+html {
+  height: 100%; }
+
+body {
+  background: #ffffff;
+  height: 100%;
+  font-family: 'Raleway';
+  color: #0D1321; }
+
+h1, h2 {
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 0; }
+
+h1 {
+  font-family: 'Righteous';
+  font-size: 4.5em;
+  margin: 0; }
+
+h2 {
+  font-family: 'Questrial';
+  margin-top: 1em; }
+  h2:first-child {
+    margin-top: 0; }
+
+p {
+  margin-top: 0; }
+  p:last-child {
+    margin-bottom: 0; }
+
+.blocks .block {
+  padding: 2em;
+  position: relative;
+  overflow: hidden; }
+  .blocks .block:nth-child(1) {
+    color: #EA526F; }
+  .blocks .block:nth-child(2) {
+    color: #2AB7CA; }
+    .blocks .block:nth-child(2) p {
+      font-size: 2em; }
+  .blocks .block:nth-child(3) {
+    color: #1B998B; }
+  .blocks .block:nth-child(4) {
+    color: #FC7A57; }
+
+.contact a {
+  display: inline-block;
+  font-size: 2em;
+  padding: 0.5em 0.25em 0 0.1em; }
+  .contact a i {
+    color: #EA526F;
+    transition: all 0.2s; }
+    .contact a i:hover {
+      color: #2AB7CA; }
+
+.skills ul {
+  list-style-type: none;
+  margin: 0 0 1em;
+  padding: 0;
+  font-size: 0; }
+  .skills ul li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0.5em 0.75em;
+    border-radius: 0.5em;
+    background: #1B998B;
+    color: #ffffff; }
+
+.projects ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 8px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0; }
+  .projects ul li {
+    display: inline-block;
+    font-size: 16px;
+    height: 5em;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    vertical-align: middle; }
+    .projects ul li a {
+      display: table;
+      text-decoration: none;
+      color: #ffffff;
+      background: #FC7A57;
+      border-radius: 0.2em;
+      font-size: 1.2em;
+      padding: 0.5em;
+      width: 100%;
+      height: 100%;
+      transition: all 0.2s;
+      box-sizing: border-box; }
+      .projects ul li a span {
+        display: table-cell;
+        vertical-align: middle; }
+      .projects ul li a:hover {
+        background: #2AB7CA; }

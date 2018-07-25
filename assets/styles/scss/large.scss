@@ -1,0 +1,9 @@
+@import 'variables';
+
+@media screen and (min-width: 64em) {
+  .projects {
+    ul {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
